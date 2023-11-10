@@ -3,7 +3,7 @@ const port = process.env.port || 5000;
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("I am backend server running by Bhagat !!");
+    res.send("I am backend server running !!");
 });
 
 app.listen(port, (error) => {
